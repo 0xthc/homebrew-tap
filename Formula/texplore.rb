@@ -27,6 +27,6 @@ class Texplore < Formula
   end
 
   test do
-    assert_predicate bin/"texplore", :executable?
+    system "#{bin}/texplore", "--version"
   end
 end
