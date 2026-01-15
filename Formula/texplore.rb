@@ -1,24 +1,24 @@
 class Texplore < Formula
   desc "Terminal file explorer with git integration"
   homepage "https://github.com/0xthc/ws-tools"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/texplore-macos-aarch64.tar.gz"
-      sha256 "40e1b776a28005388711cb4367dc8a9c72ddcd412d5d03ced9bae5bcae419bf8"
+      sha256 "76cc51da61a4606b83dd4490d5c35759fab3e0d852cfe1910e22c8ee94b48f1c"
     end
     on_intel do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/texplore-macos-x86_64.tar.gz"
-      sha256 "099f31dd85b5bb56c318183776798e22cf74e4ea5ef972beb3b46421304d9df5"
+      sha256 "49367adbddb47c48441ac7a8ddefb458ba35fe27902fe38657afffb9d986e38b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/texplore-linux-x86_64.tar.gz"
-      sha256 "36b0811c616aed409d0e8ad5828f5ee679eaa8078af82c72646fc02752406d6f"
+      sha256 "1b746fc1533d447e82c0cb816fd0636d67134cbb2bd175e01105c6992b8b56bb"
     end
   end
 
