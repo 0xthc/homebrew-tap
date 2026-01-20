@@ -1,24 +1,24 @@
 class Ws < Formula
   desc "Workspace CLI for git worktrees with tmux layouts"
   homepage "https://github.com/0xthc/ws-tools"
-  version "0.3.12"
+  version "0.3.13"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/ws-macos-aarch64.tar.gz"
-      sha256 "d4db8eb6a7e1b88e07c1c9b2c91f0ca58246f3779ae0eef48732bdcf18099d25"
+      sha256 "c5c56617fe6312025f0691422e4f118297d5fe84d84f9c06c3d7aa0d7e1fb9e7"
     end
     on_intel do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/ws-macos-x86_64.tar.gz"
-      sha256 "430931495c0680d0a9c0dbcdfc86a766aacf5133398933e45a8b0c6a8727af46"
+      sha256 "ff7ff053c62a9571ba4ec846ffb1ab966f17b5a3e788925a5b66b7d612860aad"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/0xthc/ws-tools/releases/download/v#{version}/ws-linux-x86_64.tar.gz"
-      sha256 "d656c7dca73c33fee351ea43f820329ea55fa004f6fe53bd20d5eeb582bfa7f7"
+      sha256 "07f105919aad321521db4aa90aa0b8b8ec4fd8262b8ebf9a86266643d3b799cb"
     end
   end
 
